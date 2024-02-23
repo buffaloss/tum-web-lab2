@@ -142,3 +142,19 @@ nav {
   margin-top: 180px;
   margin-left: 100px;
 }
+
+#hero-2 {
+  margin-top:50px;
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height:850px;
+}
+
+#hero-image {
+  position:relative;
+  top:-50px;
+  width:fit-content;
+}
