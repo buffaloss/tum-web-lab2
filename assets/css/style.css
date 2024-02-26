@@ -162,6 +162,25 @@ nav {
   width:fit-content;
 }
 
+#color-content {
+  margin-top:5%;
+  position:absolute;
+}
+
+#color-title {
+  margin-left:0px;
+}
+
+#green-ellipse {
+  position: relative;
+  max-height: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* #color-name {
+  width: ;
+} */
+
 #test-drive {
   display: flex;
   margin-top: 130px;
