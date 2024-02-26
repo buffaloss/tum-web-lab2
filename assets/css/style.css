@@ -169,6 +169,7 @@ nav {
 
 #color-title {
   margin-left:0px;
+  font-weight: 600;
 }
 
 #green-ellipse {
@@ -177,9 +178,10 @@ nav {
   margin-left: 5px;
   margin-right: 5px;
 }
-/* #color-name {
-  width: ;
-} */
+#color-name {
+  font-weight:600;
+  color: #83d24e;
+}
 
 #test-drive {
   display: flex;
