@@ -161,3 +161,44 @@ nav {
   top:-50px;
   width:fit-content;
 }
+
+#test-drive {
+  display: flex;
+  margin-top: 130px;
+  background-color: #83d24e;
+}
+
+#test-drive-img {
+  position: absolute;
+  width: 100%;
+}
+
+#text-overlay {
+  position: relative;
+  margin-left: 70px;
+  margin-top:50%; 
+  /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+#text {
+  font-size: 64px;
+  color: white;
+  font-weight: 300;  
+  margin-left:30px; 
+}
+
+#text-1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 600;
+  font-style: italic; 
+  margin-left:30px;
+}
+
+.green-line {
+  width: 3px;
+  height: 240px;
+  background-color: #83D24E;
+  margin-left: 70px;
+  position: relative;
+}
