@@ -147,28 +147,28 @@ nav {
 }
 
 #hero-2 {
-  margin-top:50px;
-  background-color: #F4F4F4;
+  margin-top: 50px;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
-  height:850px;
+  height: 850px;
 }
 
 #hero-image {
-  position:relative;
-  top:-50px;
-  width:fit-content;
+  position: relative;
+  top: -50px;
+  width: fit-content;
 }
 
 #color-content {
-  margin-top:5%;
-  position:absolute;
+  margin-top: 5%;
+  position: absolute;
 }
 
 #color-title {
-  margin-left:0px;
+  margin-left: 0px;
   font-weight: 600;
 }
 
@@ -179,74 +179,125 @@ nav {
   margin-right: 5px;
 }
 #color-name {
-  font-weight:600;
+  font-weight: 600;
   color: #83d24e;
 }
 
 #test-drive {
+  position: relative; /* Position relative to contain absolutely positioned elements */
   display: flex;
   margin-top: 130px;
   background-color: #83d24e;
 }
 
 #test-drive-img {
-  position: absolute;
   width: 100%;
 }
 
 #text-overlay {
-  position: relative;
-  margin-left: 70px;
-  margin-top:50%; 
-  /* background-color: rgba(255, 255, 255, 0.7); */
+  position: absolute; /* Position absolutely to overlay on the image */
+  top: 50%; /* Position at the vertical center of the "test-drive" section */
+  transform: translateY(-50%);
+  left: 70px; /* Adjust as needed */
+}
+
+#text-overlay {
+  position: absolute; /* Position absolutely to overlay on the image */
+  top: 50%; /* Position at the vertical center of the "test-drive" section */
+  transform: translateY(-50%);
+  left: 5%; /* Adjust as needed */
+  width: 40%; /* Adjust as needed */
 }
 
 #text {
-  font-size: 64px;
+  font-size: 3.5vw; /* Responsive font size */
   color: white;
-  font-weight: 300;  
-  margin-left:30px; 
+  font-weight: 300;
+  margin-left:7vh;
 }
 
 #text-1 {
-  font-size: 64px;
+  font-size: 3.5vw; /* Responsive font size */
   color: white;
   font-weight: 600;
-  font-style: italic; 
-  margin-left:30px;
+  font-style: italic;
+  margin-left:7vh;
 }
 
 .green-line {
-  width: 3px;
-  height: 240px;
-  background-color: #83D24E;
-  margin-left: 70px;
-  position: relative;
+  width: 3px; /* Responsive width */
+  height: 13.5vw; /* Adjust height as needed */
+  background-color: #83d24e;
+  margin-left: 5%; /* Adjust as needed */
+  position: absolute; /* Position absolutely to overlay on the image */
+  top: 0; /* Align with the top of the "test-drive" section */
 }
 
 #test-drive-button {
-  margin-left: 30px;
-  margin-top: 50px;
+  margin-left:7vh;
+  margin-top: 5vh; /* Adjust as needed */
   display: inline-block;
   background-color: transparent;
-  border: 3px solid #83D24E; /* Green border */
+  border: 0.2vw solid #83d24e; /* Responsive border */
   color: white; /* Green text color */
   text-decoration: none;
-  font-size: 36px;
+  font-size: 2vw; /* Responsive font size */
   font-weight: 500;
-  padding-top:20px;
-  padding-bottom: 15px;
-  padding-left:30px;
-  padding-right: 30px;
+  padding: 2vh 4vh 1vh 4vh; /* Responsive padding */
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 #test-drive-button:hover {
-  background-color: #83D24E;
+  background-color: #83d24e;
   color: #fff;
 }
 
 #test-drive-button:active {
   background-color: #639e3b;
   border-color: #639e3b;
+}
+
+#specs {
+  position: absolute; /* Position absolutely to the bottom right of the "test-drive" section */
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow flex items to wrap when there's not enough space */
+  max-width: 90%; /* Limit the width of the "specs" section */
+}
+
+.mini-section {
+  margin: 0px 3vw; /* Responsive spacing between mini-sections */
+}
+
+#green-line-1 {
+  width: 3vw; /* Responsive width */
+  height: 0.2vw; /* Responsive height */
+  background-color: #83d24e; /* Green color */
+  margin-top: 1vh; /* Adjust margin-top as needed */
+  margin-bottom: 2vh; /* Adjust margin-bottom as needed */
+}
+
+.white-text-a {
+  font-weight: 800;
+  font-size: 2vw; /* Responsive font size */
+  color: white;
+}
+
+.white-text-b {
+  color: white;
+  font-weight: normal;
+  font-size: 1.2vw; /* Responsive font size */
+}
+@media (max-width: 768px) {
+  #specs {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: none;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+  }
 }
