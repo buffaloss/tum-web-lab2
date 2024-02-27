@@ -71,6 +71,10 @@ nav {
   background-color: #83d24e;
 }
 
+a {
+  text-decoration: none;
+}
+
 #buy-button {
   width: 12vw;
   height: 3vw;
