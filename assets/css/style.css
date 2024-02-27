@@ -103,7 +103,6 @@ nav {
   width: auto;
   display: flex;
   display: wrap;
-  /* background-color: grey; */
   padding-left: 220px;
   padding-right: 220px;
 }
@@ -118,7 +117,6 @@ nav {
 #hero-pretitle {
   font-size: 32px;
   color: #83d24e;
-  /* margin-left: 220px; */
   margin-top: 100px;
   font-weight: 400;
 }
@@ -127,14 +125,12 @@ nav {
   font-size: 64px;
   color: black;
   font-weight: 700;
-  /* margin-left: 220px; */
 }
 
 #hero-subtitle {
   font-size: 24px;
   color: black;
   font-weight: 600;
-  /* margin-left: 220px; */
 }
 
 #hero-description {
@@ -184,7 +180,7 @@ nav {
 }
 
 #test-drive {
-  position: relative; /* Position relative to contain absolutely positioned elements */
+  position: relative;
   display: flex;
   margin-top: 130px;
   background-color: #83d24e;
@@ -195,55 +191,55 @@ nav {
 }
 
 #text-overlay {
-  position: absolute; /* Position absolutely to overlay on the image */
-  top: 50%; /* Position at the vertical center of the "test-drive" section */
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
-  left: 70px; /* Adjust as needed */
+  left: 70px;
 }
 
 #text-overlay {
-  position: absolute; /* Position absolutely to overlay on the image */
-  top: 50%; /* Position at the vertical center of the "test-drive" section */
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
-  left: 5%; /* Adjust as needed */
-  width: 40%; /* Adjust as needed */
+  left: 5%;
+  width: 40%;
 }
 
 #text {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw;
   color: white;
   font-weight: 300;
-  margin-left:7vh;
+  margin-left: 7vh;
 }
 
 #text-1 {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw;
   color: white;
   font-weight: 600;
   font-style: italic;
-  margin-left:7vh;
+  margin-left: 7vh;
 }
 
 .green-line {
-  width: 3px; /* Responsive width */
-  height: 13.5vw; /* Adjust height as needed */
+  width: 3px;
+  height: 13.5vw;
   background-color: #83d24e;
-  margin-left: 5%; /* Adjust as needed */
-  position: absolute; /* Position absolutely to overlay on the image */
-  top: 0; /* Align with the top of the "test-drive" section */
+  margin-left: 5%;
+  position: absolute;
+  top: 0;
 }
 
 #test-drive-button {
-  margin-left:7vh;
-  margin-top: 5vh; /* Adjust as needed */
+  margin-left: 7vh;
+  margin-top: 5vh;
   display: inline-block;
   background-color: transparent;
-  border: 0.2vw solid #83d24e; /* Responsive border */
-  color: white; /* Green text color */
+  border: 0.2vw solid #83d24e;
+  color: white;
   text-decoration: none;
-  font-size: 2vw; /* Responsive font size */
+  font-size: 2vw;
   font-weight: 500;
-  padding: 2vh 4vh 1vh 4vh; /* Responsive padding */
+  padding: 2vh 4vh 1vh 4vh;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
@@ -258,38 +254,39 @@ nav {
 }
 
 #specs {
-  position: absolute; /* Position absolutely to the bottom right of the "test-drive" section */
+  position: absolute;
   bottom: 10%;
   right: 5%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; /* Allow flex items to wrap when there's not enough space */
-  max-width: 90%; /* Limit the width of the "specs" section */
+  flex-wrap: wrap;
+  max-width: 90%;
 }
 
 .mini-section {
-  margin: 0px 3vw; /* Responsive spacing between mini-sections */
+  margin: 0px 3vw;
 }
 
 #green-line-1 {
-  width: 3vw; /* Responsive width */
-  height: 0.2vw; /* Responsive height */
-  background-color: #83d24e; /* Green color */
-  margin-top: 1vh; /* Adjust margin-top as needed */
-  margin-bottom: 2vh; /* Adjust margin-bottom as needed */
+  width: 3vw;
+  height: 0.2vw;
+  background-color: #83d24e;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
 }
 
 .white-text-a {
   font-weight: 800;
-  font-size: 2vw; /* Responsive font size */
+  font-size: 2vw;
   color: white;
 }
 
 .white-text-b {
   color: white;
   font-weight: normal;
-  font-size: 1.2vw; /* Responsive font size */
+  font-size: 1.2vw;
 }
+
 @media (max-width: 768px) {
   #specs {
     bottom: 0;
