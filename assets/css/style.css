@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -494,4 +497,70 @@ button[type="submit"]:hover {
   background-color: transparent;
   border: 3px solid white;
   color: white;
+}
+
+#footer {
+  margin-top: 20vh;
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+}
+
+.column-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 5vw;
+}
+
+#green-line-3 {
+  height: 3px;
+  width: 15vw;
+  background-color: #83d24e;
+  margin-left: 5%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  position: relative;
+}
+
+#footer-description {
+  color: white;
+  font-size: 2vh;
+  font-weight: 300;
+  text-align: center;
+}
+
+#green-line-4 {
+  width: 3px;
+  height: 15vh;
+  background-color: #83d24e;
+  position: relative;
+  margin-top: 2vh;
+}
+
+.column-footer-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.footer-link {
+  padding: 1.2vh 1.5vw;
+  color: white;
+  font-weight: 200;
+  font-size: 2vh;
+  text-decoration: none;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.footer-link:hover {
+  font-weight: 400;
+}
+
+.footer-link:active {
+  color: #83d24e;
 }
