@@ -105,7 +105,7 @@ nav {
   display: wrap;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top:5%;
+  padding-top: 5%;
 }
 
 .column {
@@ -125,7 +125,7 @@ nav {
 }
 
 #hero-title {
-  font-size:5vw;
+  font-size: 5vw;
   color: black;
   font-weight: 700;
 }
@@ -170,7 +170,7 @@ nav {
 #color-content {
   margin-top: 0%;
   position: absolute;
-  width:40%;
+  width: 40%;
 }
 
 #color-title {
@@ -192,7 +192,7 @@ nav {
 #test-drive {
   position: relative;
   display: flex;
-  margin-top: 130px;
+  margin-top: 10vw;
   background-color: #83d24e;
 }
 
@@ -307,4 +307,54 @@ nav {
     box-sizing: border-box;
     overflow-x: auto;
   }
+}
+
+.column-a {
+  flex: 1;
+}
+
+#features {
+  background-color: #f4f4f4;
+  padding: 5% 0;
+  margin-top: 10vw;
+  display: flex;
+}
+
+.feature-image {
+  flex: 1;
+  text-align: center;
+}
+
+.feature-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-box {
+  height: 20%;
+  background-color: white;
+  border: 0.2vw solid #426927;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw 5vw;
+  padding: 2vw 0vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.feature-name {
+  text-align: center;
+  margin-bottom: 1vw;
+  font-size: 1.5vw;
+  color: #83d24e;
+  font-weight: bold;
+}
+
+.feature-text {
+  color: #000;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 300;
 }
