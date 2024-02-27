@@ -223,3 +223,30 @@ nav {
   margin-left: 70px;
   position: relative;
 }
+
+#test-drive-button {
+  margin-left: 30px;
+  margin-top: 50px;
+  display: inline-block;
+  background-color: transparent;
+  border: 3px solid #83D24E; /* Green border */
+  color: white; /* Green text color */
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 500;
+  padding-top:20px;
+  padding-bottom: 15px;
+  padding-left:30px;
+  padding-right: 30px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#test-drive-button:hover {
+  background-color: #83D24E;
+  color: #fff;
+}
+
+#test-drive-button:active {
+  background-color: #639e3b;
+  border-color: #639e3b;
+}
