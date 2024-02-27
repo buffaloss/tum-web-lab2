@@ -358,3 +358,50 @@ nav {
   font-size: 1.5vw;
   font-weight: 300;
 }
+
+#photo-gallery, #short-form-section {
+  margin-top: 50px; /* Adjust margin as needed */
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+#gallery-title {
+  position: absolute;
+  margin-left:3vw;
+  margin-top:4vw;
+  color: white;
+  font-weight:700;
+  font-size: 48px;
+}
+
+#gallery-button {
+  position: absolute;
+  margin-top: 26vw;
+  margin-left:20vw;
+  display: inline-block;
+  background-color: transparent;
+  border: 0.2vw solid #83d24e;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: 500;
+  padding: 1.5vh 2vh 1.5vh 4vh;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#arrow {
+  margin-left: 1vw;
+}
+
+#gallery-button:hover {
+  background-color: #83d24e;
+  color: #fff;
+}
+
+#gallery-button:active {
+  background-color: #639e3b;
+  border-color: #639e3b;
+}
