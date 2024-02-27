@@ -435,10 +435,20 @@ nav {
 }
 
 input[type="text"],
-input[type="tel"],
+input[type="tel"] {
+  font-family:"Josefin Sans", sans-serif;
+  width: 40%;
+  padding: 1vw;
+  margin: 1vw;
+  border: none;
+  font-size: 1.5vw;
+  background-color: #CDEDB8;
+  color:#426927;
+}
+
 input[type="email"] {
   font-family:"Josefin Sans", sans-serif;
-  width: 90%;
+  width: 70%;
   padding: 1vw;
   margin: 1vw;
   border: none;
@@ -450,7 +460,7 @@ input[type="email"] {
 input[type="text"]::placeholder,
 input[type="tel"]::placeholder,
 input[type="email"]::placeholder {
-  color: #7C9E65; /* Change placeholder text color to gray */
+  color: #7C9E65;
 }
 
 button[type="submit"] {
