@@ -360,27 +360,33 @@ nav {
 }
 
 #photo-gallery, #short-form-section {
-  margin-top: 50px; /* Adjust margin as needed */
+  margin-top: 10vw;
   display: flex;
+  width:50%;
 }
 
 .column {
   flex: 1;
 }
 
+#gallery-img {
+  width: 50%;
+  height: auto;
+}
+
 #gallery-title {
   position: absolute;
-  margin-left:3vw;
-  margin-top:4vw;
+  margin-left:5vw;
+  margin-top:7vw;
   color: white;
   font-weight:700;
-  font-size: 48px;
+  font-size: 4em;
 }
 
 #gallery-button {
   position: absolute;
-  margin-top: 26vw;
-  margin-left:20vw;
+  margin-top: 33vw;
+  margin-left:30vw;
   display: inline-block;
   background-color: transparent;
   border: 0.2vw solid #83d24e;
