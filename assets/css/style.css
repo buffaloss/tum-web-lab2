@@ -359,10 +359,10 @@ nav {
   font-weight: 300;
 }
 
-#photo-gallery, #short-form-section {
+#photo-gallery {
   margin-top: 10vw;
   display: flex;
-  width:50%;
+  width: 50%;
 }
 
 .column {
@@ -370,23 +370,23 @@ nav {
 }
 
 #gallery-img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
 #gallery-title {
   position: absolute;
-  margin-left:5vw;
-  margin-top:7vw;
+  margin-left: 5vw;
+  margin-top: 7vw;
   color: white;
-  font-weight:700;
+  font-weight: 700;
   font-size: 4em;
 }
 
 #gallery-button {
   position: absolute;
   margin-top: 33vw;
-  margin-left:30vw;
+  margin-left: 30vw;
   display: inline-block;
   background-color: transparent;
   border: 0.2vw solid #83d24e;
@@ -410,4 +410,55 @@ nav {
 #gallery-button:active {
   background-color: #639e3b;
   border-color: #639e3b;
+}
+
+#form {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: #83d24e;
+}
+
+#form-title {
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  margin: 6vw 4vw 3vw 4vw;
+}
+
+#registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 90%;
+  padding: 1vw;
+  margin: 1vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+
+button[type="submit"] {
+  width: 80%;
+  padding: 1vw;
+  margin: 3vw;
+  background-color: #fff;
+  color: #83d24e;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #83d24e;
+  color: #fff;
 }

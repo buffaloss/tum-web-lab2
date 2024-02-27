@@ -187,11 +187,35 @@
     </section>
 
     <div class="row">
-        <section id="photo-gallery" class="column">
-          <img src="assets/media/gallery-img.png" id="gallery-img" alt="Gallery Image" />
-          <h2 id="gallery-title">OUR<br> PHOTO GALLERY</h2>
-          <a href="#" id="gallery-button">VIEW GALLERY<img src="assets/media/arrow.png" id="arrow"></a>
-        </section>
+      <section id="photo-gallery" class="column">
+        <img
+          src="assets/media/gallery-img.png"
+          id="gallery-img"
+          alt="Gallery Image"
+        />
+        <h2 id="gallery-title">
+          OUR<br />
+          PHOTO GALLERY
+        </h2>
+        <a href="#" id="gallery-button"
+          >VIEW GALLERY<img src="assets/media/arrow.png" id="arrow"
+        /></a>
+      </section>
+
+      <section id="form" class="column">
+        <h2 id="form-title">
+          Want to buy it?<br />
+          Register now
+        </h2>
+        <form id="registration-form">
+          <div class="row">
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <input type="number" id="age" name="age" placeholder="Age" />
+          </div>
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <button type="submit" id="register-button">Register</button>
+        </form>
+      </section>
     </div>
   </body>
 </html>
