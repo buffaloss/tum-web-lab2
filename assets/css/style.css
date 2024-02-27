@@ -103,77 +103,87 @@ nav {
   width: auto;
   display: flex;
   display: wrap;
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top:5%;
 }
 
 .column {
   flex: 1;
 }
+
 .row {
   display: flex;
   flex-direction: row;
 }
+
 #hero-pretitle {
-  font-size: 32px;
+  font-size: 3vw;
   color: #83d24e;
-  margin-top: 100px;
+  margin-top: 5vh;
   font-weight: 400;
 }
 
 #hero-title {
-  font-size: 64px;
+  font-size:5vw;
   color: black;
   font-weight: 700;
 }
 
 #hero-subtitle {
-  font-size: 24px;
+  font-size: 2vw;
   color: black;
   font-weight: 600;
 }
 
 #hero-description {
-  font-size: 18px;
+  font-size: 1.5vw;
   color: black;
   font-weight: 400;
   text-align: right;
-  margin-top: 180px;
-  margin-left: 100px;
+  margin-top: 20vh;
+  margin-left: 5vh;
 }
 
 #hero-2 {
-  margin-top: 50px;
+  margin-top: 5vh;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  height: 850px;
+  padding-top: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  height: 120vh;
+}
+
+#hero-2 .row {
+  flex-wrap: wrap;
 }
 
 #hero-image {
   position: relative;
-  top: -50px;
+  top: -15vh;
   width: fit-content;
 }
 
 #color-content {
-  margin-top: 5%;
+  margin-top: 0%;
   position: absolute;
+  width:40%;
 }
 
 #color-title {
-  margin-left: 0px;
   font-weight: 600;
 }
 
 #green-ellipse {
   position: relative;
-  max-height: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
+  max-height: 3vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
+
 #color-name {
   font-weight: 600;
   color: #83d24e;
