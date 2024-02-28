@@ -81,6 +81,7 @@ a {
 #buy-button {
   width: 12vw;
   height: 6vh;
+  min-height: 60px;
   background-color: #83d24e;
   border: none;
   cursor: pointer;
@@ -104,6 +105,36 @@ a {
   font-size: 2em;
   color: #ebfbe1;
 }
+
+@media only screen and (max-width: 1024px) {
+  header {
+    flex-direction: row;
+    height: auto;
+    padding: 1rem 5%;
+  }
+
+  #nav-links {
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: right;
+    margin-right:5vw;
+  }
+
+  #nav-links li {
+    display: block;
+    margin: 0;
+  }
+
+  #nav-links li:first-child {
+    margin-top: 1rem;
+  }
+
+  #buy-button {
+    width: auto;
+    margin-top: 1rem;
+  }
+}
+
 
 #hero-1 {
   background-position: center;
