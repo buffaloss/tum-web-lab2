@@ -422,7 +422,9 @@ a {
 #photo-gallery {
   margin-top: 20vh;
   display: flex;
-  width: 50%;
+  text-align:left;
+  background: url("/assets/media/gallery-img.png") no-repeat center center;
+  background-size: cover;
 }
 
 .column {
@@ -435,19 +437,18 @@ a {
 }
 
 #gallery-title {
-  position: absolute;
-  margin-left: 5vw;
-  margin-top: 12vh;
+  margin: 10vh 5vw 3vh 5vw;
   color: white;
   font-weight: 700;
   font-size: 4vw;
 }
 
 #gallery-button {
-  position: absolute;
-  margin-top: 65vh;
-  margin-left: 30vw;
-  display: inline-block;
+  height: fit-content;
+  margin-top: 60vh;
+  margin-right:3vw;
+  margin-bottom:2vh;
+  min-width: 15vw;
   background-color: transparent;
   border: 0.2vw solid #83d24e;
   color: white;
@@ -460,6 +461,8 @@ a {
 
 #arrow {
   margin-left: 1vw;
+  width:1.5vw;
+  min-width:1vw;
 }
 
 #gallery-button:hover {
