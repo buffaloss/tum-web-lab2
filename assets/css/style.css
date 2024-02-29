@@ -240,7 +240,7 @@ a {
 #test-drive {
   position: relative;
   margin-top: 20vh;
-  background: url("/assets/media/img2.png") no-repeat center center;
+  background: url("../media/img2.png") no-repeat center center;
   background-size: cover;
   min-height:80vh;
   padding-top:5vh;
@@ -423,7 +423,7 @@ a {
   margin-top: 20vh;
   display: flex;
   text-align:left;
-  background: url("/assets/media/gallery-img.png") no-repeat center center;
+  background: url("../media/gallery-img.png") no-repeat center center;
   background-size: cover;
 }
 
