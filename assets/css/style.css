@@ -624,6 +624,137 @@ button[type="submit"]:hover {
 
 /* Styles for Tablets in Landscape Orientation */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  nav {
+    font-size: 1em;
+  }
+
+  #buy-button {
+    width: 10vw;
+    height: 5vh;
+    min-height: 0px;
+  }
+
+  #buy-button-text {
+    font-size: 1em;
+  }
+  
+  #hero-pretitle {
+    font-size: 4vh;
+    margin-top: 0vh;
+  }
+  
+  #hero-title {
+    font-size: 6vh;
+  }
+  
+  #hero-subtitle {
+    font-size: 3vh;
+  }
+  
+  #hero-description {
+    font-size: 2vh;
+    margin-top: 6vh;
+  }
+
+  #hero-2 {
+    margin-top: 3vh;
+  }
+
+  #color-title {
+    font-size:2vh;
+  }
+  
+  #green-ellipse {
+    max-height: 2vh;
+  }
+  
+  #color-name {
+    font-size: 2vh;
+  }
+
+  #test-drive {
+    margin-top: 10vh;
+  }
+  
+  #text-overlay {
+    margin-top: 20vh;
+  }
+  
+  #text {
+    font-size: 3vw;
+    margin-left:3vw;
+  }
+  
+  #text-1 {
+    font-size: 3vw;
+    margin-left:3vw;
+  }
+  
+  .green-line {
+    height: 11.5vw;
+  }
+  
+  #test-drive-button {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    max-width: 8vw;
+    max-height:2vh;
+    font-size: 2.5vh;
+    padding: 2vh 3vh 2vh 3vh;
+  }
+  
+  #green-line-1 {
+    width: 2vw;
+  }
+  
+  .white-text-a {
+    font-size: 1.5vw;
+  }
+  
+  .white-text-b {
+    font-size: 1vw;
+  }
+
+  #features {
+    margin-top: 10vh;
+  }
+
+  #photo-gallery {
+    margin-top: 10vh;
+  }
+  
+  #gallery-button {
+    padding: 1.5vh 0.5vh 1.5vh 2vh;
+  }
+  
+  #arrow {
+    width:1.3vw;
+  }
+  
+  #form {
+    margin-top: 10vh;
+  }
+  
+  #footer {
+    margin-top: 10vh;
+  }
+  
+  #green-line-3 {
+    margin-left: 0%;
+  }
+  
+  #green-line-4 {
+    width: 2px;
+    margin-top: 5vh;
+  }
+  
+  .column-footer-links {
+    margin-top: 5.5vh;
+  }
+  
+  .footer-link {
+    font-size: 2.5vh;
+  }
 }
 
 /* Styles for Tablets in Portrait Orientation */
