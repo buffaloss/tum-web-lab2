@@ -617,10 +617,10 @@ button[type="submit"]:hover {
   color: #83d24e;
 }
 
-/* Styles for Desktop */
+/* Styles for Desktop
 @media only screen and (min-width: 1025px) {
-  /* probably will be the general styles I already have? */
-}
+  /* probably will be the general styles I already have?
+} */
 
 /* Styles for Tablets in Landscape Orientation */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -631,28 +631,28 @@ button[type="submit"]:hover {
   #buy-button {
     width: 10vw;
     height: 5vh;
-    min-height: 0px;
+    min-height: 25px;
   }
 
   #buy-button-text {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   
   #hero-pretitle {
-    font-size: 4vh;
+    font-size: 2em;
     margin-top: 0vh;
   }
   
   #hero-title {
-    font-size: 6vh;
+    font-size: 3em;
   }
   
   #hero-subtitle {
-    font-size: 3vh;
+    font-size: 1em;
   }
   
   #hero-description {
-    font-size: 2vh;
+    font-size: 1em;
     margin-top: 6vh;
   }
 
@@ -661,15 +661,15 @@ button[type="submit"]:hover {
   }
 
   #color-title {
-    font-size:2vh;
+    font-size:1em;
   }
   
   #green-ellipse {
-    max-height: 2vh;
+    max-height: 3vh;
   }
   
   #color-name {
-    font-size: 2vh;
+    font-size: 1em;
   }
 
   #test-drive {
@@ -681,25 +681,28 @@ button[type="submit"]:hover {
   }
   
   #text {
-    font-size: 3vw;
+    font-size: 2em;
     margin-left:3vw;
   }
   
   #text-1 {
-    font-size: 3vw;
+    font-size: 2em;
     margin-left:3vw;
   }
   
   .green-line {
-    height: 11.5vw;
+    height: 11vw;
   }
   
   #test-drive-button {
     margin-left: 3vw;
     margin-top: 5vh;
-    max-width: 8vw;
+    max-width: 10vw;
     max-height:2vh;
-    font-size: 2.5vh;
+    min-width: 50px;
+    min-height:15px;
+    font-size: 1em;
+    width: 9vw;
     padding: 2vh 3vh 2vh 3vh;
   }
   
@@ -708,11 +711,11 @@ button[type="submit"]:hover {
   }
   
   .white-text-a {
-    font-size: 1.5vw;
+    font-size: 1em;
   }
   
   .white-text-b {
-    font-size: 1vw;
+    font-size: 0.75em;
   }
 
   #features {
@@ -724,6 +727,7 @@ button[type="submit"]:hover {
   }
   
   #gallery-button {
+    margin-top: 65%;
     padding: 1.5vh 0.5vh 1.5vh 2vh;
   }
   
@@ -737,6 +741,14 @@ button[type="submit"]:hover {
   
   #footer {
     margin-top: 10vh;
+  }
+
+  #footer-description {
+    font-size: 1em;
+  }
+  
+  .footer-link {
+    font-size: 1em;
   }
   
   #green-line-3 {
