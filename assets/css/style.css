@@ -419,6 +419,11 @@ a {
   font-weight: 300;
 }
 
+.row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
 #photo-gallery {
   margin-top: 20vh;
   display: flex;
@@ -617,12 +622,8 @@ button[type="submit"]:hover {
   color: #83d24e;
 }
 
-/* Styles for Desktop
-@media only screen and (min-width: 1025px) {
-  /* probably will be the general styles I already have?
-} */
-
 /* Styles for Tablets in Landscape Orientation */
+/* Use 1100 x 600 for testing */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   nav {
     font-size: 1em;
@@ -770,7 +771,225 @@ button[type="submit"]:hover {
 }
 
 /* Styles for Tablets in Portrait Orientation */
+/* Use 768 x 1024 for testing */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    font-size: 1.3em;
+  }
+
+  #buy-button {
+    width: 12vw;
+    height: 4vh;
+    min-height: 15px;
+  }
+
+  #buy-button-text {
+    font-size: 1.5em;
+  }
+
+  #hero-pretitle {
+    font-size: 2em;
+    margin-top: 2vh;
+  }
+  
+   #hero-title {
+    font-size: 3em;
+  }
+  
+  #hero-subtitle {
+    font-size: 1.3em;
+  }
+  
+  #hero-description {
+    font-size: 1.2em;
+    margin-top: 5vh;
+  }
+
+  #hero-2 {
+    margin-top: 2vh;
+  }
+
+  #color-title {
+    font-size:1em;
+  }
+  
+  #green-ellipse {
+    max-height: 3vh;
+  }
+  
+  #color-name {
+    font-size: 1em;
+  }
+
+  #test-drive {
+    margin-top: 10vh;
+  }
+  
+  #text-overlay {
+    margin-top: 15vh;
+  }
+  
+  #text {
+    font-size: 3em;
+    margin-left:3vw;
+  }
+  
+  #text-1 {
+    font-size: 3em;
+    margin-left:3vw;
+  }
+  
+  .green-line {
+    height: 24vw;
+  }
+  
+  #test-drive-button {
+    margin-left: 3vw;
+    margin-top: 3vh;
+    max-width: 10vw;
+    max-height:2vh;
+    min-width: 100px;
+    min-height:15px;
+    font-size: 1em;
+    width: 10vw;
+    padding: 2vh 3vh 2vh 3vh;
+  }
+  
+  #green-line-1 {
+    width: 5vw;
+  }
+  
+  .white-text-a {
+    font-size: 1.5em;
+  }
+  
+  .white-text-b {
+    font-size: 1em;
+  }
+
+  #features {
+    margin-top: 10vh;
+    height:60vh;
+  }
+  
+  .feature-image img {
+    margin-top:30%;
+  }
+  
+  .feature-box {
+    height: 25%;
+    margin: 2vw 5vw;
+    padding: 2vw 0vw;
+  }
+  
+  .feature-name {
+    font-size: 2vh;
+  }
+  
+  .feature-text {
+    font-size: 1.5vh;
+  }
+
+  #photo-gallery {
+    margin-top: 10vh;
+  }
+
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #gallery-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #gallery-title {
+    margin: 8vh 5vw 3vh 5vw;
+    font-size: 6vw;
+  }
+  
+  #gallery-button {
+    height: fit-content;
+    margin-top: 50vh;
+    margin-left:10%;
+    margin-bottom:5vh;
+    min-width: 15vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 1.5vh 2vh 1.5vh 4vh;
+  }
+  
+  #form {
+    margin-top: 10vh;
+    width: 100%;
+  }
+  
+  #form-title {
+    font-size: 7vw;
+    margin: 5vh 3vw 5vh 4vw;
+  }
+  
+  #registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #input-container {
+    width: 35vw;
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 1vw;
+    margin: 1vw;
+    font-size: 1.5vw;
+  }
+  
+  input[type="email"] {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    padding: 1vw;
+    margin: 1vw;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #cdedb8;
+    color: #426927;
+  }
+  
+  button[type="submit"] {
+    width: 40%;
+    margin: 5vh 3vw 5vh 4vw;
+    font-size: 2.5vw;
+  }
+
+  #footer {
+    margin-top: 10vh;
+  }  
+  
+  #green-line-3 {
+    width: 20vw;
+  }
+  
+  #footer-description {
+    margin-left:3vw;
+    text-align: left;
+    font-size: 2.5vh;
+  }
+  
+  #green-line-4 {
+    height: 15vh;
+    margin-top: 5vh;
+  }
+  
+  .column-footer-links {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    margin-left:1vw;
+  }
 }
 
 /* Styles for Smartphones in Landscape Orientation */
