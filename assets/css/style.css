@@ -18,7 +18,7 @@ header {
   padding: 0px 5%;
 }
 
-nav {
+#main-nav {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
@@ -78,6 +78,14 @@ a {
   text-decoration: none;
 }
 
+#mobile-heading {
+  display: none;
+}
+
+#mobile-nav {
+  display: none;
+}
+
 #buy-button {
   width: 12vw;
   height: 6vh;
@@ -117,7 +125,7 @@ a {
     flex-direction: column;
     margin-top: 1rem;
     text-align: right;
-    margin-right:5vw;
+    margin-right: 5vw;
   }
 
   #nav-links li {
@@ -199,29 +207,29 @@ a {
   position: relative;
   margin: 0 auto;
   margin-top: 0vh;
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
 }
 
 #hero-image img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
   max-width: 100%;
   max-height: 100%;
 }
 
 #color-content {
-  margin-top:0vh;
-  width:fit-content;
+  margin-top: 0vh;
+  width: fit-content;
 }
 
-#color-content .row{
+#color-content .row {
   justify-content: center;
-  align-items: center ;
+  align-items: center;
 }
 
 #color-title {
-  font-size:2.5vh;
+  font-size: 2.5vh;
   font-weight: 600;
 }
 
@@ -242,20 +250,20 @@ a {
   margin-top: 20vh;
   background: url("../media/img2.png") no-repeat center center;
   background-size: cover;
-  min-height:80vh;
-  padding-top:5vh;
+  min-height: 80vh;
+  padding-top: 5vh;
   padding-bottom: 5vh;
 }
 
 #test-drive-img {
   width: 100%;
-  max-width:100%;
+  max-width: 100%;
 }
 
 #text-overlay {
   position: relative;
   flex: 1;
-  padding:5vh 5vw;
+  padding: 5vh 5vw;
   margin-top: 3vh;
   font-style: Josefin Sans;
 }
@@ -286,7 +294,7 @@ a {
   margin-left: 7vh;
   margin-top: 5vh;
   max-width: 10vw;
-  max-height:4vh;
+  max-height: 4vh;
   display: inline-block;
   background-color: transparent;
   border: 0.2vw solid #83d24e;
@@ -298,21 +306,25 @@ a {
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
+#test-drive-button-mobile {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   #test-drive-button {
-  margin-left: 7vh;
-  margin-top: 5vh;
-  width:7vw;
-  height:auto;
-  display: inline-block;
-  background-color: transparent;
-  border: 0.2vw solid #83d24e;
-  color: white;
-  text-decoration: none;
-  font-size: 3vh;
-  font-weight: 500;
-  padding: 4vh 6vh 4vh 4vh;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-left: 7vh;
+    margin-top: 5vh;
+    width: 7vw;
+    height: auto;
+    display: inline-block;
+    background-color: transparent;
+    border: 0.2vw solid #83d24e;
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 500;
+    padding: 4vh 6vh 4vh 4vh;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   }
 }
 
@@ -332,13 +344,13 @@ a {
   flex-wrap: wrap;
   max-width: 90%;
   padding: 5vh;
-  margin-top:10vh;
+  margin-top: 10vh;
 }
 
 @media (max-width: 768px) {
   #specs {
     width: 100%;
-    margin-top:25vh;
+    margin-top: 25vh;
     max-width: none;
     box-sizing: border-box;
     overflow-x: auto;
@@ -427,7 +439,7 @@ a {
 #photo-gallery {
   margin-top: 20vh;
   display: flex;
-  text-align:left;
+  text-align: left;
   background: url("../media/gallery-img.png") no-repeat center center;
   background-size: cover;
 }
@@ -451,8 +463,8 @@ a {
 #gallery-button {
   height: fit-content;
   margin-top: 60vh;
-  margin-right:3vw;
-  margin-bottom:2vh;
+  margin-right: 3vw;
+  margin-bottom: 2vh;
   min-width: 15vw;
   background-color: transparent;
   border: 0.2vw solid #83d24e;
@@ -466,8 +478,8 @@ a {
 
 #arrow {
   margin-left: 1vw;
-  width:1.5vw;
-  min-width:1vw;
+  width: 1.5vw;
+  min-width: 1vw;
 }
 
 #gallery-button:hover {
@@ -502,12 +514,16 @@ a {
   align-items: center;
 }
 
+#registration-form-mobile {
+  display: none;
+}
+
 #input-container {
   width: 35vw;
 }
 
-input[type="text"],
-input[type="tel"] {
+#name,
+#phone-number {
   font-family: "Josefin Sans", sans-serif;
   width: 40%;
   padding: 1vw;
@@ -518,7 +534,7 @@ input[type="tel"] {
   color: #426927;
 }
 
-input[type="email"] {
+#email {
   position: relative;
   font-family: "Josefin Sans", sans-serif;
   width: 100%;
@@ -530,13 +546,13 @@ input[type="email"] {
   color: #426927;
 }
 
-input[type="text"]::placeholder,
-input[type="tel"]::placeholder,
-input[type="email"]::placeholder {
+#name::placeholder,
+#phone-number::placeholder,
+#email::placeholder {
   color: #7c9e65;
 }
 
-button[type="submit"] {
+#register-button {
   width: 30%;
   padding: 0.5vw 0vw;
   margin: 3vw;
@@ -550,7 +566,7 @@ button[type="submit"] {
   font-family: "Josefin Sans", sans-serif;
 }
 
-button[type="submit"]:hover {
+register-button:hover {
   background-color: transparent;
   border: 3px solid white;
   color: white;
@@ -625,7 +641,7 @@ button[type="submit"]:hover {
 /* Styles for Tablets in Landscape Orientation */
 /* Use 1100 x 600 for testing */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  nav {
+  #main-nav {
     font-size: 1em;
   }
 
@@ -638,20 +654,20 @@ button[type="submit"]:hover {
   #buy-button-text {
     font-size: 1.2em;
   }
-  
+
   #hero-pretitle {
     font-size: 2em;
     margin-top: 0vh;
   }
-  
+
   #hero-title {
     font-size: 3em;
   }
-  
+
   #hero-subtitle {
     font-size: 1em;
   }
-  
+
   #hero-description {
     font-size: 1em;
     margin-top: 6vh;
@@ -662,13 +678,13 @@ button[type="submit"]:hover {
   }
 
   #color-title {
-    font-size:1em;
+    font-size: 1em;
   }
-  
+
   #green-ellipse {
     max-height: 3vh;
   }
-  
+
   #color-name {
     font-size: 1em;
   }
@@ -676,45 +692,45 @@ button[type="submit"]:hover {
   #test-drive {
     margin-top: 10vh;
   }
-  
+
   #text-overlay {
     margin-top: 20vh;
   }
-  
+
   #text {
     font-size: 2em;
-    margin-left:3vw;
+    margin-left: 3vw;
   }
-  
+
   #text-1 {
     font-size: 2em;
-    margin-left:3vw;
+    margin-left: 3vw;
   }
-  
+
   .green-line {
     height: 11vw;
   }
-  
+
   #test-drive-button {
     margin-left: 3vw;
     margin-top: 5vh;
     max-width: 10vw;
-    max-height:2vh;
+    max-height: 2vh;
     min-width: 50px;
-    min-height:15px;
+    min-height: 15px;
     font-size: 1em;
     width: 9vw;
     padding: 2vh 3vh 2vh 3vh;
   }
-  
+
   #green-line-1 {
     width: 2vw;
   }
-  
+
   .white-text-a {
     font-size: 1em;
   }
-  
+
   .white-text-b {
     font-size: 0.75em;
   }
@@ -726,20 +742,20 @@ button[type="submit"]:hover {
   #photo-gallery {
     margin-top: 10vh;
   }
-  
+
   #gallery-button {
     margin-top: 65%;
     padding: 1.5vh 0.5vh 1.5vh 2vh;
   }
-  
+
   #arrow {
-    width:1.3vw;
+    width: 1.3vw;
   }
-  
+
   #form {
     margin-top: 10vh;
   }
-  
+
   #footer {
     margin-top: 10vh;
   }
@@ -747,24 +763,24 @@ button[type="submit"]:hover {
   #footer-description {
     font-size: 1em;
   }
-  
+
   .footer-link {
     font-size: 1em;
   }
-  
+
   #green-line-3 {
     margin-left: 0%;
   }
-  
+
   #green-line-4 {
     width: 2px;
     margin-top: 5vh;
   }
-  
+
   .column-footer-links {
     margin-top: 5.5vh;
   }
-  
+
   .footer-link {
     font-size: 2.5vh;
   }
@@ -773,7 +789,7 @@ button[type="submit"]:hover {
 /* Styles for Tablets in Portrait Orientation */
 /* Use 768 x 1024 for testing */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  nav {
+  #main-nav {
     font-size: 1.3em;
   }
 
@@ -791,15 +807,15 @@ button[type="submit"]:hover {
     font-size: 2em;
     margin-top: 2vh;
   }
-  
-   #hero-title {
+
+  #hero-title {
     font-size: 3em;
   }
-  
+
   #hero-subtitle {
     font-size: 1.3em;
   }
-  
+
   #hero-description {
     font-size: 1.2em;
     margin-top: 5vh;
@@ -810,13 +826,13 @@ button[type="submit"]:hover {
   }
 
   #color-title {
-    font-size:1em;
+    font-size: 1em;
   }
-  
+
   #green-ellipse {
     max-height: 3vh;
   }
-  
+
   #color-name {
     font-size: 1em;
   }
@@ -824,68 +840,68 @@ button[type="submit"]:hover {
   #test-drive {
     margin-top: 10vh;
   }
-  
+
   #text-overlay {
     margin-top: 15vh;
   }
-  
+
   #text {
     font-size: 3em;
-    margin-left:3vw;
+    margin-left: 3vw;
   }
-  
+
   #text-1 {
     font-size: 3em;
-    margin-left:3vw;
+    margin-left: 3vw;
   }
-  
+
   .green-line {
     height: 24vw;
   }
-  
+
   #test-drive-button {
     margin-left: 3vw;
     margin-top: 3vh;
     max-width: 10vw;
-    max-height:2vh;
+    max-height: 2vh;
     min-width: 100px;
-    min-height:15px;
+    min-height: 15px;
     font-size: 1em;
     width: 10vw;
     padding: 2vh 3vh 2vh 3vh;
   }
-  
+
   #green-line-1 {
     width: 5vw;
   }
-  
+
   .white-text-a {
     font-size: 1.5em;
   }
-  
+
   .white-text-b {
     font-size: 1em;
   }
 
   #features {
     margin-top: 10vh;
-    height:60vh;
+    height: 60vh;
   }
-  
+
   .feature-image img {
-    margin-top:30%;
+    margin-top: 30%;
   }
-  
+
   .feature-box {
     height: 25%;
     margin: 2vw 5vw;
     padding: 2vw 0vw;
   }
-  
+
   .feature-name {
     font-size: 2vh;
   }
-  
+
   .feature-text {
     font-size: 1.5vh;
   }
@@ -898,48 +914,48 @@ button[type="submit"]:hover {
     display: flex;
     flex-direction: column;
   }
-  
+
   #gallery-img {
     width: 100%;
     height: auto;
   }
-  
+
   #gallery-title {
     margin: 8vh 5vw 3vh 5vw;
     font-size: 6vw;
   }
-  
+
   #gallery-button {
     height: fit-content;
     margin-top: 50vh;
-    margin-left:10%;
-    margin-bottom:5vh;
+    margin-left: 10%;
+    margin-bottom: 5vh;
     min-width: 15vw;
     font-size: 1.5vw;
     font-weight: 500;
     padding: 1.5vh 2vh 1.5vh 4vh;
   }
-  
+
   #form {
     margin-top: 10vh;
     width: 100%;
   }
-  
+
   #form-title {
     font-size: 7vw;
     margin: 5vh 3vw 5vh 4vw;
   }
-  
+
   #registration-form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   #input-container {
     width: 35vw;
   }
-  
+
   input[type="text"],
   input[type="tel"] {
     width: 100%;
@@ -947,7 +963,7 @@ button[type="submit"]:hover {
     margin: 1vw;
     font-size: 1.5vw;
   }
-  
+
   input[type="email"] {
     position: relative;
     font-family: "Josefin Sans", sans-serif;
@@ -959,7 +975,7 @@ button[type="submit"]:hover {
     background-color: #cdedb8;
     color: #426927;
   }
-  
+
   button[type="submit"] {
     width: 40%;
     margin: 5vh 3vw 5vh 4vw;
@@ -968,34 +984,356 @@ button[type="submit"]:hover {
 
   #footer {
     margin-top: 10vh;
-  }  
-  
+  }
+
   #green-line-3 {
     width: 20vw;
   }
-  
+
   #footer-description {
-    margin-left:3vw;
+    margin-left: 3vw;
     text-align: left;
     font-size: 2.5vh;
   }
-  
+
   #green-line-4 {
     height: 15vh;
     margin-top: 5vh;
   }
-  
+
   .column-footer-links {
     margin-top: 6vh;
     margin-bottom: 3vh;
-    margin-left:1vw;
+    margin-left: 1vw;
   }
 }
 
-/* Styles for Smartphones in Landscape Orientation */
-@media only screen and (max-width: 767px) and (orientation: landscape) {
-}
+/* Styles for Smartphones */
+@media only screen and (max-width: 767px) {
+  header {
+    display: flex;
+    padding: 5% 5%;
+    flex-direction: column;
+  }
 
-/* Styles for Smartphones in Portrait Orientation */
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+  #main-nav {
+    display: none;
+  }
+
+  #brand-logo img {
+    width: auto;
+  }
+
+  #mobile-heading {
+    display: flex;
+    margin: 5%;
+    font-size: 1em;
+    color: #73b845;
+  }
+
+  #mobile-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    width: 100%;
+  }
+
+  #nav-links-mobile {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  #nav-links-mobile li {
+    display: inline;
+    margin: 5%;
+    font-weight: 500;
+    font-size: large;
+  }
+
+  #nav-links-mobile li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #nav-links-mobile li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+
+  #nav-links-mobile li a:hover::after {
+    width: 100%;
+  }
+
+  #nav-links-mobile li a:active::after {
+    background-color: #83d24e;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #buy-button {
+    width: 15vw;
+    padding: 1vh 2vw;
+    height: fit-content;
+    min-height: 0px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+
+  #buy-button:hover {
+    background-color: #73b845;
+  }
+
+  #buy-button:active {
+    background-color: #639e3b;
+  }
+
+  #buy-button-text {
+    font-size: 1.5em;
+    color: #ebfbe1;
+  }
+
+  #hero-1 {
+    padding-top: 3%;
+  }
+
+  #hero-pretitle {
+    font-size: 4vh;
+    margin-top: 3vh;
+  }
+
+  #hero-title {
+    font-size: 6vh;
+  }
+
+  #hero-subtitle {
+    font-size: 2vh;
+  }
+
+  #hero-description {
+    font-size: 2vh;
+    margin-top: 12vh;
+  }
+
+  #color-title {
+    font-size: 1.5vh;
+  }
+
+  #green-ellipse {
+    max-height: 1.5vh;
+  }
+
+  #color-name {
+    font-size: 1.5vh;
+  }
+
+  #test-drive {
+    margin-top: 10vh;
+  }
+
+  #text-overlay {
+    margin-top: 10vh;
+  }
+
+  #text {
+    margin-left: 3vw;
+  }
+
+  #text-1 {
+    margin-left: 3vw;
+  }
+
+  #test-drive-button {
+    display: none;
+  }
+
+  #test-drive-button-mobile {
+    margin-top: 5vh;
+    font-family: Josefin Sans;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #83d24e;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+    font-weight: 500;
+    padding: 1vh 3vw;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+  #test-drive-button-mobile:hover {
+    background-color: #83d24e;
+    color: #fff;
+  }
+
+  #test-drive-button-mobile:active {
+    background-color: #639e3b;
+    border-color: #639e3b;
+  }
+
+  #test-drive-button-text {
+    color: white;
+  }
+
+  #specs {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 5vh;
+    margin-top: 25vh;
+    overflow-x: auto;
+  }
+
+  .mini-section {
+    margin: 0px 3vw;
+  }
+
+  #green-line-1 {
+    width: 6vw;
+    height: 2px;
+  }
+
+  .white-text-a {
+    font-size: 1.5em;
+  }
+
+  .white-text-b {
+    font-size: 1em;
+  }
+
+  #features {
+    margin-top: 10vh;
+    min-height: 75vh;
+  }
+
+  .feature-image img {
+    margin-top: 50%;
+  }
+
+  .feature-box {
+    height: 25%;
+  }
+
+  .feature-name {
+    font-size: 1em;
+  }
+
+  .feature-text {
+    font-size: 1em;
+  }
+
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #photo-gallery {
+    margin-top: 10vh;
+  }
+
+  #gallery-button {
+    margin-top: 65%;
+    margin-left: 45%;
+    font-size: 1em;
+  }
+
+  #arrow {
+    width: 10px;
+  }
+
+  #form {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #form-title {
+    font-size: 5em;
+  }
+
+  #registration-form {
+    display: none;
+  }
+
+  #registration-form-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #input-container-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #name-mobile,
+  #phone-number-mobile,
+  #email-mobile {
+    font-family: "Josefin Sans", sans-serif;
+    width: 50%;
+    height: 4vh;
+    padding: 1vw;
+    margin: 1vw;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #cdedb8;
+    color: #426927;
+    margin: 2vh 0;
+    font-size: 1.5em;
+  }
+
+  #register-button-mobile {
+    width: 30%;
+    padding: 1vh 3vw;
+    margin: 5vw;
+    background-color: #fff;
+    color: #83d24e;
+    border: 3px solid white;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  register-button-mobile:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+  }
+
+  #footer {
+    margin-top: 10vh;
+  }
+
+  #green-line-4 {
+    display: none;
+  }
+
+  .column-footer-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 50%;
+  }
 }
