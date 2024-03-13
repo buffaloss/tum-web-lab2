@@ -1014,6 +1014,7 @@ register-button:hover {
     display: flex;
     padding: 5% 5%;
     flex-direction: column;
+    text-align: center;
   }
 
   #main-nav {
@@ -1084,7 +1085,7 @@ register-button:hover {
   }
 
   #buy-button {
-    width: 15vw;
+    width: 35vw;
     padding: 1vh 2vw;
     height: fit-content;
     min-height: 0px;
@@ -1208,16 +1209,17 @@ register-button:hover {
   }
 
   .white-text-a {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .white-text-b {
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
   #features {
     margin-top: 10vh;
     min-height: 75vh;
+    padding-top:15%;
   }
 
   .feature-image img {
@@ -1229,11 +1231,11 @@ register-button:hover {
   }
 
   .feature-name {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .feature-text {
-    font-size: 1em;
+    font-size: 0.7em;
   }
 
   .row-1 {
@@ -1246,13 +1248,11 @@ register-button:hover {
   }
 
   #gallery-button {
-    margin-top: 65%;
-    margin-left: 45%;
+    margin-top: 100%;
+    margin-left: 0%;
     font-size: 1em;
-  }
-
-  #arrow {
-    width: 10px;
+    padding:3%;
+    font-family: Josefin Sans;
   }
 
   #form {
@@ -1264,7 +1264,7 @@ register-button:hover {
   }
 
   #form-title {
-    font-size: 5em;
+    font-size: 4em;
   }
 
   #registration-form {
@@ -1302,7 +1302,7 @@ register-button:hover {
   }
 
   #register-button-mobile {
-    width: 30%;
+    width: fit-content;
     padding: 1vh 3vw;
     margin: 5vw;
     background-color: #fff;
