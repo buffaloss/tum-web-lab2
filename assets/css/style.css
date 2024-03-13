@@ -1337,3 +1337,47 @@ register-button:hover {
     margin-top: 50%;
   }
 }
+
+#mascot-container {
+  position: fixed;
+  right: 0;
+  bottom: -350px;
+  z-index: 999;
+  animation: jump 5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+#mascot-image {
+  width: 300px;
+  z-index: 999;
+  opacity: 1;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -400px, 0);
+  }
+}
+
+#dialog-box {
+  display: none;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: #639e3b;
+  font-size: 1em;
+}
+
+#mascot-container:hover #dialog-box {
+  display: block;
+  top: -30px;
+  left: -calc(100%);
+}
