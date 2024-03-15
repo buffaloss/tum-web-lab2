@@ -4,6 +4,9 @@ Web Programming laboratory work no. 2
 ## Author
 Beatricia Golban, FAF-213
 
+## Live Demo
+Click [here](https://buffaloss.github.io/tum-web-lab2/) to explore the live demo using GitHub Pages.
+
 ## Description
 This landing page project is designed to showcase the features and specifications of the Kawasaki Ninja 400, a popular sport motorcycle model. It aims to provide enthusiasts and potential buyers with comprehensive information about the bike, including its performance capabilities, design elements, and technological advancements. Additionally, the landing page seeks to highlight the unique selling points of the Kawasaki Ninja 400, such as its powerful engine, sleek aesthetics, and ergonomic design, with the goal of promoting interest and generating leads among motorcycle enthusiasts and prospective buyers.
 
@@ -27,10 +30,6 @@ The "Photo gallery" and Registration form sections can be observed next to each 
 Last, but not least, the footer at the bottom of the page.
 
 ![Footer screenshot](assets/media/screenshot6.png)
-
-
-## Live Demo
-Click [here](https://buffaloss.github.io/tum-web-lab2/) to explore the live demo using GitHub Pages.
 
 ## Features
 - **Navigation menu:** The website has a navigation menu with connections to various areas such as About, Test Drive, Features, and Photo Gallery, allowing for simple navigation and user involvement.
