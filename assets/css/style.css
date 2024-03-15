@@ -1109,24 +1109,36 @@ register-button:hover {
 
   #hero-1 {
     padding-top: 3%;
+    display:block;
+    text-align: center;
   }
 
   #hero-pretitle {
     font-size: 4vh;
     margin-top: 3vh;
+    display:block;
   }
 
   #hero-title {
     font-size: 6vh;
+    display:block;
+
   }
 
   #hero-subtitle {
     font-size: 2vh;
+    display:block;
   }
 
   #hero-description {
     font-size: 2vh;
-    margin-top: 12vh;
+    margin-top: 5vh;
+    margin-left:0vw;
+    text-align: center;
+  }
+
+  .column-main {
+    display:block;
   }
 
   #color-title {
