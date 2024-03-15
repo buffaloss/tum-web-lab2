@@ -1103,6 +1103,8 @@ register-button:hover {
 
   .hero-1 {
     padding-top: 3%;
+    display:block;
+    text-align: center;
   }
 
   .hero-pretitle {
