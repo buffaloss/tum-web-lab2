@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kawasaki Ninja 400 - Unleash Your Ride</title>
     <!-- CHANGE THESE VALUES -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,7 +60,44 @@
       </button>
     </header>
 
-    <section id="hero">
+    <section class="hero d-flex flex-column align-items-center min-vh-100 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="hero-pretitle h2">All New 2022 | 2023 Model</h2>
+            <h1 class="hero-title mb-3 h1">Ninja 400<br />MSRP $6799</h1>
+            <p class="hero-subtitle">Destination charge $250</p>
+          </div>
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-centet"
+          >
+            <p class="hero-description">
+              Specifications and pricing are subject to change, and alterations
+              may occur at the discretion of the dealer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-2 row mt-5 justify-content-center align-items-center">
+        <div class="d-flex align-items-center">
+          <p class="color-title">Color</p>
+          <img
+            src="assets/media/ellipse.png"
+            class="green-ellipse mx-2"
+            alt="Color ellipse"
+          />
+          <p class="color-name">Lime Green</p>
+        </div>
+        <div class="col-md-12">
+          <img
+            src="assets/media/hero-image.png"
+            alt="Ninja 400"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- <section id="hero">
       <subsection id="hero-1">
         <div class="column">
           <h2 id="hero-pretitle">All New 2022 | 2023 Model</h2>
@@ -91,7 +134,7 @@
           </div>
         </div>
       </subsection>
-    </section>
+    </section> -->
 
     <section id="test-drive">
       <div class="row">

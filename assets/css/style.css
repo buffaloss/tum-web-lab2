@@ -162,38 +162,34 @@ a {
   flex-direction: row;
 }
 
-#hero-pretitle {
-  font-size: 6vh;
+.hero-pretitle {
   color: #83d24e;
   margin-top: 5vh;
   font-weight: 400;
 }
 
-#hero-title {
-  font-size: 8vh;
+.hero-title {
   color: black;
   font-weight: 700;
 }
 
-#hero-subtitle {
-  font-size: 4vh;
+.hero-subtitle {
+  margin-top: -5px;
   color: black;
   font-weight: 600;
 }
 
-#hero-description {
-  font-size: 3vh;
+.hero-description {
   color: black;
   font-weight: 400;
   text-align: right;
-  margin-top: 20vh;
-  margin-left: 5vh;
 }
 
-#hero-2 {
+.hero-2 {
   margin-top: 5vh;
   background-color: #f4f4f4;
   display: flex;
+  width:100%;
   justify-content: center;
   align-items: center;
   padding: 5vh 10%;
@@ -228,8 +224,7 @@ a {
   align-items: center;
 }
 
-#color-title {
-  font-size: 2.5vh;
+.color-title {
   font-weight: 600;
 }
 
@@ -239,8 +234,7 @@ a {
   margin-right: 0.5vw;
 }
 
-#color-name {
-  font-size: 2.5vh;
+.color-name {
   font-weight: 600;
   color: #83d24e;
 }
@@ -1107,26 +1101,26 @@ register-button:hover {
     color: #ebfbe1;
   }
 
-  #hero-1 {
+  .hero-1 {
     padding-top: 3%;
   }
 
-  #hero-pretitle {
-    font-size: 4vh;
+  .hero-pretitle {
     margin-top: 3vh;
+    text-align:center;
   }
 
-  #hero-title {
-    font-size: 6vh;
+  .hero-title {
+    text-align:center;
   }
 
-  #hero-subtitle {
-    font-size: 2vh;
+  .hero-subtitle {
+    text-align:center;
   }
 
-  #hero-description {
-    font-size: 2vh;
-    margin-top: 12vh;
+  .hero-description {
+    margin-top: 3vh;
+    text-align:center;
   }
 
   #color-title {
