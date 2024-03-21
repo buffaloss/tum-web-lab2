@@ -231,6 +231,16 @@ section button:hover {
   color: white !important;
 }
 
+@media (max-width: 768px) {
+  #specs {
+    width: 100%;
+    margin-top: 25vh;
+    max-width: none;
+    box-sizing: border-box;
+    overflow-x: auto;
+  }
+}
+
 #specs {
   display: flex;
   justify-content: flex-end;
@@ -268,7 +278,6 @@ section button:hover {
 .column-a {
   flex: 1;
 }
-
 #features {
   background-color: #f4f4f4;
   padding: 5% 0;
@@ -853,6 +862,7 @@ register-button:hover {
     margin-top: 3vh;
     text-align: center;
   }
+
 
   #test-drive {
     margin-top: 10vh;
