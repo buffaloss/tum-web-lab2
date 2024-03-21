@@ -1032,10 +1032,8 @@ register-button:hover {
     color: #ebfbe1;
   }
 
-  .hero-1 {
-    padding-top: 3%;
-    display:block;
-    text-align: center;
+  .hero {
+   margin-bottom: 0vh;
   }
 
   .hero-pretitle {
@@ -1066,6 +1064,14 @@ register-button:hover {
 
   #color-name {
     font-size: 1.5vh;
+  }
+
+  #test-drive {
+    margin-top:10vh;
+  }
+
+  .mini-section {
+    margin-left: 10%;
   }
 
   #features {
@@ -1158,7 +1164,7 @@ register-button:hover {
     padding: 1vh 3vw;
     margin: 5vw;
     background-color: #fff;
-    color: #83d24e;
+    color: #83d24e !important;
     border: 3px solid white;
     font-size: 2em;
     cursor: pointer;
